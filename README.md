@@ -1,4 +1,4 @@
-# 📱💰 Conheça o Calculadora de IMCs.
+# 📱💰 Conheça o Calculadora de IMC.
 > Aplicação desenvolvida no curso de Javascript + typescript <br>
 > Esse repositório tem como objetivo principal de apresentar meus estudos e aplicar em projetos pessoias.
 
