@@ -1,0 +1,199 @@
+:root {
+    --primary-color: rgb(42, 158, 194);
+}
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline:0;
+
+}
+body {
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');
+    background-color:#0B74FD;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+/*///////////////       MENU           /////////////////////*/
+
+.page-title {
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 32px;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    
+    overflow: hidden;
+    background-color: #0B74FD;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+  
+li.dropdown {
+    display: inline-block;
+}
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+/*///////////////       CONTAINER           /////////////////////*/
+
+.container {
+    max-width: 440px;
+    margin: 150px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: #0B74FD;
+}
+
+/*///////////////       TABLE          /////////////////////*/
+
+table {
+    margin-top: 40px;
+
+}
+
+
+table td, th {
+    background-color: #ccc2;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+/*///////////////       FORM/INPUT            /////////////////////*/
+
+form {
+    margin-top: 40px;
+}
+
+form input, form label {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+form input {
+    font-size: 18px;
+    height: 50px;
+    padding: 0 10px;
+
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 8px
+}
+
+form input:focus {
+    border: 1px solid #0B74FD;
+
+}
+
+::-webkit-input-placeholder {
+    font-weight: 400;
+}
+
+::-moz-placeholder {
+    font-weight: 400;
+}
+
+
+form button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    margin: 0 auto;
+    width: 40%;
+
+    border: none;
+    background: #0B74FD;
+    color: #fff;
+    font-size: 18px;
+    font-weight:bold;
+    height:50px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    transition-duration: 0.5s;
+
+}
+
+form button:hover {
+    background: #15427C;
+}
+
+.texto-paragrafo {
+    background: #00FFB9;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.bad {
+    background: #FE8B93;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 100px 0px;
+    color:#0B74FD;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Curso JS com TypeScript</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <div class="logo-header">
+                    <h1 class="page-title">JS + TypeScript</h1>
+                </div>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#news">Sobre</a></li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Contatos</a>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        
+        <section class="container">
+            <h1>Calculadora de IMC</h1>
+            <table style="width:100%">
+                <tr>
+                    <th><span style="color: orange;">Magreza</span></th>
+                    <th><span style="color: green;">Normal</span></th>
+                    <th><span style="color: #ffef2a;">Sobrepeso</span></th>
+                    <th><span style="color: red;">Obesidade</span></th>
+                </tr>
+                <tr>
+                    <td>Menor<br>18,5</td>
+                    <td>Entre<br>18,5 e 24,9</td>
+                    <td>Entre<br> 24,9 e 30</td>
+                    <td>Maior<br>30</td>
+                </tr>
+    
+            </table>
+    
+            <form action="/" id="form" method="post">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso" maxlength="3" autocomplete="off"  placeholder="92">
+    
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura" maxlength="4" autocomplete="off"  placeholder="1.80">
+    
+                <button type="submit">Calcular</button>
+            </form>
+    
+            <div id="resultados"></div>
+    
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Keidson Designer</p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
